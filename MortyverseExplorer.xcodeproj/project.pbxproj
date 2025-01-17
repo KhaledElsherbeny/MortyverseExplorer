@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E966420F2D39E18700049B47 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E966420E2D39E18700049B47 /* README.md */; };
+		E96643A32D39E3B600049B47 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = E96643A22D39E3B600049B47 /* AlamofireImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E96641802D39E01100049B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96641612D39E00F00049B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96641682D39E00F00049B47;
+			remoteInfo = MortyverseExplorer;
+		};
+		E966418A2D39E01100049B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96641612D39E00F00049B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96641682D39E00F00049B47;
+			remoteInfo = MortyverseExplorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E96641692D39E00F00049B47 /* MortyverseExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortyverseExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E966417F2D39E01100049B47 /* MortyverseExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortyverseExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96641892D39E01100049B47 /* MortyverseExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortyverseExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E966420E2D39E18700049B47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E96641912D39E01100049B47 /* Exceptions for "MortyverseExplorer" folder in "MortyverseExplorer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Configs/Info.plist,
+			);
+			target = E96641682D39E00F00049B47 /* MortyverseExplorer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E966416B2D39E00F00049B47 /* MortyverseExplorer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E96641912D39E01100049B47 /* Exceptions for "MortyverseExplorer" folder in "MortyverseExplorer" target */,
+			);
+			path = MortyverseExplorer;
+			sourceTree = "<group>";
+		};
+		E96641822D39E01100049B47 /* MortyverseExplorerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MortyverseExplorerTests;
+			sourceTree = "<group>";
+		};
+		E966418C2D39E01100049B47 /* MortyverseExplorerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MortyverseExplorerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E96641662D39E00F00049B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96643A32D39E3B600049B47 /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E966417C2D39E01100049B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96641862D39E01100049B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E96641602D39E00F00049B47 = {
+			isa = PBXGroup;
+			children = (
+				E966420E2D39E18700049B47 /* README.md */,
+				E966416B2D39E00F00049B47 /* MortyverseExplorer */,
+				E96641822D39E01100049B47 /* MortyverseExplorerTests */,
+				E966418C2D39E01100049B47 /* MortyverseExplorerUITests */,
+				E966416A2D39E00F00049B47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E966416A2D39E00F00049B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E96641692D39E00F00049B47 /* MortyverseExplorer.app */,
+				E966417F2D39E01100049B47 /* MortyverseExplorerTests.xctest */,
+				E96641892D39E01100049B47 /* MortyverseExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E96641682D39E00F00049B47 /* MortyverseExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96641922D39E01100049B47 /* Build configuration list for PBXNativeTarget "MortyverseExplorer" */;
+			buildPhases = (
+				E96641652D39E00F00049B47 /* Sources */,
+				E96641662D39E00F00049B47 /* Frameworks */,
+				E96641672D39E00F00049B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E966416B2D39E00F00049B47 /* MortyverseExplorer */,
+			);
+			name = MortyverseExplorer;
+			packageProductDependencies = (
+				E96643A22D39E3B600049B47 /* AlamofireImage */,
+			);
+			productName = MortyverseExplorer;
+			productReference = E96641692D39E00F00049B47 /* MortyverseExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E966417E2D39E01100049B47 /* MortyverseExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96641972D39E01100049B47 /* Build configuration list for PBXNativeTarget "MortyverseExplorerTests" */;
+			buildPhases = (
+				E966417B2D39E01100049B47 /* Sources */,
+				E966417C2D39E01100049B47 /* Frameworks */,
+				E966417D2D39E01100049B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96641812D39E01100049B47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E96641822D39E01100049B47 /* MortyverseExplorerTests */,
+			);
+			name = MortyverseExplorerTests;
+			packageProductDependencies = (
+			);
+			productName = MortyverseExplorerTests;
+			productReference = E966417F2D39E01100049B47 /* MortyverseExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E96641882D39E01100049B47 /* MortyverseExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E966419A2D39E01100049B47 /* Build configuration list for PBXNativeTarget "MortyverseExplorerUITests" */;
+			buildPhases = (
+				E96641852D39E01100049B47 /* Sources */,
+				E96641862D39E01100049B47 /* Frameworks */,
+				E96641872D39E01100049B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E966418B2D39E01100049B47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E966418C2D39E01100049B47 /* MortyverseExplorerUITests */,
+			);
+			name = MortyverseExplorerUITests;
+			packageProductDependencies = (
+			);
+			productName = MortyverseExplorerUITests;
+			productReference = E96641892D39E01100049B47 /* MortyverseExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E96641612D39E00F00049B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E96641682D39E00F00049B47 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E966417E2D39E01100049B47 = {
+						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
+						TestTargetID = E96641682D39E00F00049B47;
+					};
+					E96641882D39E01100049B47 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E96641682D39E00F00049B47;
+					};
+				};
+			};
+			buildConfigurationList = E96641642D39E00F00049B47 /* Build configuration list for PBXProject "MortyverseExplorer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E96641602D39E00F00049B47;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E96643A12D39E3B600049B47 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E966416A2D39E00F00049B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96641682D39E00F00049B47 /* MortyverseExplorer */,
+				E966417E2D39E01100049B47 /* MortyverseExplorerTests */,
+				E96641882D39E01100049B47 /* MortyverseExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E96641672D39E00F00049B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E966420F2D39E18700049B47 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E966417D2D39E01100049B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96641872D39E01100049B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E96641652D39E00F00049B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E966417B2D39E01100049B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96641852D39E01100049B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E96641812D39E01100049B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96641682D39E00F00049B47 /* MortyverseExplorer */;
+			targetProxy = E96641802D39E01100049B47 /* PBXContainerItemProxy */;
+		};
+		E966418B2D39E01100049B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96641682D39E00F00049B47 /* MortyverseExplorer */;
+			targetProxy = E966418A2D39E01100049B47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E96641932D39E01100049B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MortyverseExplorer/Configs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaled.MortyverseExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96641942D39E01100049B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MortyverseExplorer/Configs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaled.MortyverseExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E96641952D39E01100049B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E96641962D39E01100049B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96641982D39E01100049B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaled.MortyverseExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MortyverseExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MortyverseExplorer";
+			};
+			name = Debug;
+		};
+		E96641992D39E01100049B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaled.MortyverseExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MortyverseExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MortyverseExplorer";
+			};
+			name = Release;
+		};
+		E966419B2D39E01100049B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaled.MortyverseExplorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MortyverseExplorer;
+			};
+			name = Debug;
+		};
+		E966419C2D39E01100049B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaled.MortyverseExplorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MortyverseExplorer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E96641642D39E00F00049B47 /* Build configuration list for PBXProject "MortyverseExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96641952D39E01100049B47 /* Debug */,
+				E96641962D39E01100049B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96641922D39E01100049B47 /* Build configuration list for PBXNativeTarget "MortyverseExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96641932D39E01100049B47 /* Debug */,
+				E96641942D39E01100049B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96641972D39E01100049B47 /* Build configuration list for PBXNativeTarget "MortyverseExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96641982D39E01100049B47 /* Debug */,
+				E96641992D39E01100049B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E966419A2D39E01100049B47 /* Build configuration list for PBXNativeTarget "MortyverseExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E966419B2D39E01100049B47 /* Debug */,
+				E966419C2D39E01100049B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E96643A12D39E3B600049B47 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E96643A22D39E3B600049B47 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E96643A12D39E3B600049B47 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E96641612D39E00F00049B47 /* Project object */;
+}
